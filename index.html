@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body{
+        background-color: rgb(255, 236, 251);
+        font-family: Calibri, Helvetica, sans-serif;
+        font-size: medium;
+    }
+    h1{
+        font-size: x-large;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        }
+    h2{
+        font-size: large; 
+        font-weight: 500;
+        }
+    h3{
+        font-size: large;
+        font-weight: 200;
+    }
+    p{
+        font-size: medium; 
+        font-weight: 200;
+        }
+    div ul{
+        list-style-type: none;
+        }
+    div ul>li{
+        font-size: medium; 
+        font-weight: 200;
+        margin-bottom: 5px;
+        }
+    div#contents li{
+            font-size: medium; 
+            font-weight: 200;
+            margin-bottom: 5px;
+        }
+    div#contents li{
+            font-size: medium; 
+            font-weight: 200;
+            margin-bottom: 5px;
+        }
+    img.main_images{
+        width: 500px;
+        border-width: 2px;
+        border-color: black;
+        border-style: solid;
+    }
+    #main{
+        margin-left:200px;
+        max-width:600px;
+    }
+    div.chunk{
+        background-color: white;
+        border-radius: 25px;
+        padding: 25px;
+        margin-bottom: 25px;
+    }
+    #profile_image{
+        width: 180px;
+        height: 180px;
+        position: fixed;
+        left: 10px;
+        top: 10px;
+    }
+    #contents{
+        width: 180px;
+        position: fixed;
+        left: 10px;
+        top: 200px;
+    }
+    ol.contents_list{
+        list-style-type: none;
+        padding: 0;
+    }
+    ol.contents_list>li{
+        margin-bottom: 5px;
+        font-weight: lighter;
+    }
+    ol.subcontents_list{
+        list-style-type: none;
+        padding-left: 20px;
+    }
+    ol.subcontents_list>li{
+        margin-top: 5px;
+        font-weight: lighter;
+    }
+    a:link{
+        text-decoration: none;
+        color: black;
+    } 
+    /*a.main_link:link{
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
+    } */
+    a:visited{
+        text-decoration: none;
+        color: black;
+    }
+    /*a.main_link:visited{
+        text-decoration: none;
+        color: black;
+    }*/
+    a:hover{
+        font-weight:500;
+    }
+    /*a.main_link:hover{
+        font-weight:400;
+    }*/
+    a:active{
+        color: purple;
+    }
+    
+</style>
+</head>
+<body>
+    <img src="profile_image.png" id="profile_image" alt="a person's face, close up grey scale ."/>
+    <div id="contents">
+        <ol class="contents_list">
+            <li><a href="#C1">Personal Information</a></li>
+            <li><a href="#C2">Interest in IT</a></li>
+            <li><a href="#C3">Ideal Job</a></li>
+            <li>
+                <a href="#C4">Personal Profile</a>
+                <ol class=subcontents_list>
+                    <li>
+                        <a href="#P1">Meyers Briggs</a>
+                    </li>
+                    <li>
+                        <a href="#P2">Learning Style</a>
+                    </li>
+                    <li>
+                        <a href="#P3">Birth Chart</a>
+                    </li>
+                </ol>
+            </li>
+            <li><a href="#C5">Project Idea</a></li>
+        </ol>
+    </div>
+
+    <div id="main">
+    <h1>Introduction to IT - Assignment 1</h1>
+
+        <div class="chunk" id="C1">
+            <h2>Personal Information<h2>
+            <ul>
+                <li>Name Redacted</li>
+                <li>Student ID: redacted</li>
+                <li>email: redacted</li>
+                <li>Education: redacted</li>
+                <li>I live with two beautiful cats and love playing videogames such as Dark Souls II.</li>
+            </ul>
+        </div>
+
+        <div class="chunk" id="C2">
+            <h2>Interest In Information Technology<h2>
+            <p>
+                As a child I played a lot of NES, and later Gameboy and PlayStation. We didn’t have a home computer until I was in high school. Until this point, most of my experience with computers happened at school or at the library. At one point my uncle acquired a very old computer. Its OS was an early version of Windows, and the screen glew a stunningly monochromatic orange. I used our home computer to chat with school friends on MSN and used it to decorate my MySpace profile. This was my first exposure to HTML. 
+            </p>
+            <p>
+                I took an elective subject as part of my degree which focused on web development. After this I left my degree to study a Certificate IV in Information Technology at TAFE. I went on to study Computer Science at Latrobe which was mostly great. I loved the Discrete mathematics and the Algebra, but I hated the Trigonometry. I found it difficult to connect with my peers as they were all straight out of high school. I took a unit at Open Uni to try out the online study, and I found it much easier organise my life around. Despite the limited courses available, I enrolled in the Bachelor of Information Technology at RMIT to make use of the online learning format.
+            </p>
+            <p>
+                I think my biggest motivation for wanting to study in this area was to learn more about how computers worked, and how to make them do things. I was inspired by video games and also by (the relatively new at the time) smart phone apps. I remember that I would often think “I wish I had an app to do X”, or “I wish this app did Y like this”. During this degree, I would hope to learn how to make useful things with various information technologies, such as apps for smartphones or Raspberry Pi projects, although my expectations are low.
+            </p>
+        </div>
+
+        <div class="chunk" id="C3">
+            <h2>Ideal Job<h2>
+            <p>
+                Ideally I would want to be working in a non-profit-driven  organisation in an IT adjacent role, such as a library technician or an administration officer. The assignment may well be asking for my ideal IT job, perhaps even assuming that I am enrolled in this course with the aim of moving into the IT industry. I have therefore chosen a help desk job advertisement pictured and linked below.
+            </p>
+            <p>
+                <a class="main_link" href="https://www.seek.com.au/job/51168550?type=standout#searchRequestToken=f489f59e-ac39-4e63-ad6c-1b330d6b30fe" >Link to Job Advertisement.</a>
+            </p>
+            <img src="job_ad.png" class="main_images" alt="A Job advertisement titled Help desk 1/2 support.">
+            <p>
+            The position described in the advertisement is that of an IT support person who would complete basic and necessary tasks: configuring, testing and troubleshooting hardware and software; supporting staff with IT queries and training; keeping track of IT assets. This role appeals to me as I would be able to communicate directly with clients and support them in learning how to interact with their technology. 
+            </p>
+            <p>
+            The advertisement is asking for non-specialist experience supporting users within a Microsoft environment. The advertisement also requests experience installing Windows on devices. The skills requested are common to most job advertisements: problem solving, communication, customer driven, punctual, planned. 
+            </p>
+            <p>
+            From talking with help desk team members at my current place of work, I know that at least here, qualifications are not needed for level 1 support roles which involves referring to a database of known issues. In my current team, I have been able to identify most of the problems with Windows that my team members have come across, often needing the administrators to carry out the solutions as my account wouldn’t have the privileges. I have installed older versions of Windows on many PCs, and fewer times I have installed Windows 10 on PCs. I have tinkered a lot within Windows and Linux so I am familiar with the intricacies of navigating OS tools that may be used, and so I shouldn’t have any problem providing Level 1 support. Between myself and Google, I would probably do ok at providing level 2 support. I have all the requested skills, and in fact I use them all in my current job. 
+            </p>
+            <p>
+            I think I could be successful were I to apply for this position, though I may not be the best candidate for the job. Seeking out a level 1 help desk position would give me on the job experience and would lead to me developing a deeper familiarity with the admin side of windows and some of the more common issues that come up. The thing I would most have to work on though, would be my interviewing. 
+            </p>
+
+
+        </div>
+
+        <div class="chunk" id="C4">
+            <h2>Personal Profile<h2>
+            <p>
+                While I have provided a set of Myers-Briggs results for this assignment, such personality tests are pseudoscience. Were I to be asked to take such a test in an interview, I would treat it as a red-flag and I would consider exiting the interview. 
+            </p>
+            <p>
+                To me these test results are at best incorrect, and at worse a scam. Out of the three test results, the one that matches how I see my own personality, (and how other people have told me that they see me) is the Horoscope. Does this mean that I should trust my horoscope? Should I bring these results to job interviews to show my potential employer? It probably wouldn’t work out too well for me (although you never know what people believe). If I took my horoscope results and presented them in the Meyers-Briggs format, would this be more acceptable?
+            </p>
+            <p>
+                These results won’t influence my behaviour on a team, because they are pseudoscience. 
+            </p>
+            <p>
+                These results have no place in deciding how a team should be formed. The only role that tests like these have is to enable us to think about what our personality traits actually are. It can be fun to take a test and come up with a reflection of yourself, (that is why people use horoscopes,) but it should only be used as a tool for your own self-reflection, and not as some sort of puzzle piece to match yourself with other team members. 
+            </p>                
+
+
+            <h3 id="P1" >Myers-Briggs Type Indicator</h3>
+            <p>
+                The following results are for an INFJ-T.
+            </p>
+                <img class="main_images" src="results_MB.png" alt="A breakdown of a Meyers-Briggs test. The results show INFJ-T; Introverted, Intuitive, Feeling, Judging, Turbulent. " />
+            
+            <h3 id="P2">Learning Style Test</h3>
+                <p>
+                    <a class="main_link" href="http://www.educationplanner.org/students/self-assessments/learning-styles-quiz.shtml" >Link to Learning Style test website.</a>
+                </p>
+                <img class="main_images" src="results_LS.png" alt="The results of a Learning Style test. The results show 100% Visual, 0% Auditory, 0% Tactile." />
+
+            <h3 id="P3" >Personality Birth Chart</h3>
+            <p>
+                <a class="main_link" href="https://horoscopes.astro-seek.com/birth-chart-horoscope-online" >Link to Personality Birth Chart website.</a>
+            </p>
+            <p>
+                (The results are too exhaustive to include in their entirety. I have included the main results only.)
+            </p>
+                <img class="main_images" src="results_H1.png" alt="A birthchart excerpt showing Ascendant in Cancer."/>
+                <img class="main_images" src="results_H2.png" alt="A birthchart excerpt showing Sun in Virgo."/>
+                <img class="main_images" src="results_H3.png" alt="A birthchart excerpt showing Moon in Cancer."/>
+        </div>
+
+        <div class="chunk" id="C5">
+            <h2>Project Idea<h2>
+            <p>
+                This is text int he paragraph
+            </p>
+        </div>
+
+    </div>
+</body>
+</html>
